@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="?android:selectableItemBackground"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <TextView
+        android:id="@+id/rvname_electricity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="left"
+        android:padding="10dp"
+        android:text="@string/rvname_electricity"
+        android:textColor="@android:color/black"
+        android:textSize="18dp"
+        />
+
+    <TextView
+        android:id="@+id/rvemail_electricity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/rvname_electricity"
+        android:text="@string/rvemail_electricity"
+        android:textColor="@android:color/black"
+        android:layout_marginLeft="10dp"
+        android:textSize="12dp"
+        />
+
+</RelativeLayout>

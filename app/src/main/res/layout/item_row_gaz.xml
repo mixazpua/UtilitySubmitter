@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="?android:selectableItemBackground"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <TextView
+        android:id="@+id/rvname_gaz"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:text="@string/rvname_gaz"
+        android:textColor="@android:color/black"
+        android:textSize="18dp"
+        />
+
+    <TextView
+        android:id="@+id/rvemail_gaz"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/rvname_gaz"
+        android:text="@string/rvemail_gaz"
+        android:textColor="@android:color/black"
+        android:layout_marginLeft="10dp"
+        android:textSize="12dp"
+        />
+
+</RelativeLayout>

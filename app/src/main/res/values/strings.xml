@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">UtilitySubmitter</string>
+
+    <string name="rvname_gaz">Name</string>
+    <string name="rvemail_gaz">Email</string>
+
+    <string name="rvemail_electricity">Email</string>
+    <string name="rvname_electricity">Name</string>
+
+    <string name="rvemail_water">Email</string>
+    <string name="rvname_water">Name</string>
+</resources>
